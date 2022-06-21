@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning System</title>
+    <link rel="stylesheet"   href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="letslearn_logo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" type="text/css"  href="styles.css">
+    <style>
+      .grid-container{
+      padding:10px 10px;
+      display:grid;
+      grid-template-columns:repeat(3,auto);
+      grid-template-rows:repeat(3,auto);
+      grid-gap:5px 5px;
+      }
+
+      .grid-item
+      {
+      background-color:transparent;
+      border:1px solid #f4eded;
+      padding:20px;
+      font-size:30px;
+      }
+
+      #g1{
+      background-color:#cbc6b8;
+      grid-column:1/-1;
+      height:38px;
+      border-radius:10px;
+      }
+
+      #g1 a{
+      display:inline-block;
+      border:1px solid #2b9481;
+      color:#3a6090;
+      float :right;
+      text-decoration:none;
+
+      }
+      #g1 a:hover{
+      background-color:white;
+        color:black;
+      }
+
+      #g2{
+      grid-column:1/-1;
+      height:20px;
+      text-align:center;
+      color:#b1e6a2;
+      border-radius:50px;
+      background-color:#778899;
+      }
+
+      #g2 h1{
+      font-size:36px;
+      }
+
+      #g3{
+      grid-column:1/2;
+      height:300px;
+      width:260px;
+      border-radius:40px;
+      background-color:#cbc6b8;
+      }
+
+      #g3 a{
+      display:block;
+      padding:2px;
+      padding-right : 20px;
+      padding-left: 20px;
+      border:1px solid #2b9481;
+      border-radius: 20px;
+      color:#3a6090;
+      }
+
+      #g4{
+      grid-column:2/3;
+      height:300px;
+      width:570px;
+      color:#FFFFFF;
+      font-family: 'Times New Roman', serif;
+      text-align: center;
+      font-size:20px;
+      border-radius:10px;
+      }
+
+      #g5{
+      grid-column:3/4;
+      height:300px;
+      width:260px;
+      border-radius:40px;
+      background-color:#cbc6b8;
+      }
+
+      #g5 h6{
+      color:#123e6e;
+      }
+
+      #g6{
+      grid-column:1/2;
+      height:95px;
+      background-color:#778899;
+      border-radius:20px;
+      }
+
+      .android{
+      color:green;
+      text-decoration:none;
+      }
+
+      .fb{
+      color:blue;
+      text-decoration:none;
+      }
+
+      .mail{
+      color:red;
+      text-decoration:none;
+      }
+
+      #g7{
+      grid-column:2/4;
+      height:95px;
+      background-color:#778899;
+      border-radius:20px;
+      }
+
+      .copyright{
+      color:wheat;
+      }
+
+      .grid-item img{
+        float:left;
+        width :70px;
+        height:40px;	
+      }	
+    </style>
+  </head>
+  <body>
+
+  <div class="grid-container">
+        <div class="grid-item" id="g1"> 
+                <img src="letslearn_logo .png">
+                <a href="#" target="_blank"><i class="fa fa-phone"></i>Contact Us</a>
+                <a href="#" target="_blank"><i class="fa fa-laptop"></i>Test Yourself</a>
+                <a href="tutors.html" target="_blank"><i class="fa fa-book"></i>Tutors</a>
+                <a href="videos.html" target="_blank"><i class="fa fa-play"></i>Videos</a>
+                <a href="#" target="_blank"><i class="fa fa-home"></i>Home</a>
+        </div> 
+        
+        <div class="grid-item" id="g2"><h1>LEARNING SYSTEM</h1>  </div>
+
+
+        <div class="grid-item" id="g3">
+          <div class="button">
+                <a href="#"class="btn">class: 6th</a>
+                <a href="#"class="btn">class: 7th</a>
+                <a href="#"class="btn">class: 8th</a>	
+                <a href="#"class="btn">class: 9th</a>
+                <a href="#"class="btn">class:10th</a>
+                <a href="#"class="btn">class:11th</a>	
+                <a href="#"class="btn">class:12th</a>
+          </div>
+        </div> 
+
+        <div class="grid-item" id="g4">Learning Management Systems(LMS) have undergone many phases of evolution since the introduction of
+            the teaching machine in 1924. It is interesting to remember the role of distance teaching or telematic learning processes in 
+            heralding the emergence of LMS as we know it today since that was the root of anytime-anywhere learning. The right Learning  System
+            can help motivate employees, improve processes and increase productivity. 
+            Our organizations ramp up for newer skills, elevated learning modules and augmented learning processes, 
+            the key features they  have .It is best for the planning, execution, documentation,tracking,and reporting of knowledge or skill-based courses 
+            & training programs. You can access the video tutorials . And if you want to book a free class ,please register yourself in the tutor tab .
+            And please do give feedback if our resources helps you.  
+        </div>
+
+        <div class="grid-item" id="g5">
+            <h6>Feedback about Website</h2>
+            <br>
+            <form>
+              <textarea name="message" rows="10" cols="30" placeholder="type here"></textarea>
+              <br>
+              <input type="submit">
+            </form>
+            <a href="#"class="btn" style="color:#123e6e ;border:1px solid #2b9481;  border-radius: 15px;"><i class="fa fa-arrow-right"></i>Next Page</a>
+        </div>
+        
+        <div class="grid-item" id="g6">
+          <div class="icons">
+            <p><i class="fa fa-android android"></i><a target="_blank" href="#" class="android"> Apps</a></p>
+            <p><i class="fa fa-facebook fb"></i><a target="_blank"href="http://www.facebook.com/" class="fb"> Facebook</a></p>
+            <p><i class="fa fa-envelope mail"></i><a target="_blank" href="#" class="mail"> Mail</a></p>
+          </div>
+        </div>
+        
+        <div class="grid-item" id="g7"><small class="copyright" > © 2021-2024  All Rights are reserved.  | 
+            <a href="https://scrimba.com/">  www.scrimba.com</a> </small>
+        </div> 
+    </div> 
+  
+  </body>
+</html>
+

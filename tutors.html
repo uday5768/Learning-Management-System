@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Tutors</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="C:\Users\91811\Desktop\AAhtml files\css\favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\91811\Desktop\AAhtml files\css\favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\91811\Desktop\AAhtml files\css\favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="C:\Users\91811\Desktop\AAhtml files\css\favicon_io/site.webmanifest">
+        <style>
+            input
+            {
+            background-color:#6df6ff;
+            padding:5px;
+            }
+
+            input[type=text],input[type=password],input[type=email]
+            {
+            border-radius:5px;
+            border-style:solid;
+            color : white;
+            outline:none;
+            }
+
+            input[type=submit],input[type=reset]
+            {
+            background-color:#1b7c60;
+            color:white;
+            cursor:pointer;
+            border-radius:4px;
+            border-style:none;
+            padding:8px;
+            }
+
+            input[type=submit]:hover,input[type=reset]:hover
+            {
+            background-color:#29e7b0;
+            }
+
+            h2{
+            color:white;
+            }
+        </style>
+    </head>
+    <body style="background-image:url('th.jpg');background-size:100% 300%;">
+        <h2> sign up / login to get more benifit.</h2>
+        <form action="thanks.html" target="_blank" method="get">
+            <label for="user"><b>Username:</b></label>
+            <input type="text" id="user" placeholder="enter username" name="username">
+            <br><br>
+            <label for="pwd"><b>Password:</b></label>
+            <input type="password" id="pwd" placeholder="enter password" maxlength="8" name="password">
+            <br><br>
+            <label for="mail"><b>Email:</b></label>
+            <input type="email" id="mail">
+            <br><br>
+            <input type="submit" value="sign up">
+            <input type="submit" value="login">
+            <input type="reset">
+        </form>
+    </body>
+</html>
